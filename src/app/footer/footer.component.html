@@ -1,0 +1,49 @@
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-column">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/service">Our Service</a></li>
+         
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>About us</h4>
+      <p>
+       Comprehensive Consultancy Services
+We offer versatile advisory services, available on both retainership and a case-to-case basis, to meet your specific needs. Our representation spans various forums across Haryana, Delhi, and Rajasthan.
+
+
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Connect with us</h4>
+      <ul>
+        <li><a routerLink="/contact">📱 Contact us</a></li>
+       <a style="color:aliceblue" href="https://www.google.com/maps/place/28%C2%B041'52.7%22N+76%C2%B054'29.4%22E/@28.6979729,76.9055915,17z/data=!3m1!4b1!4m4!3m3!8m2!3d28.6979729!4d76.9081664?hl=en&entry=ttu&g_ep=EgoyMDI1MDcyOC4wIKXMDSoASAFQAw%3D%3D"   target="_blank" 
+  rel="noopener noreferrer"> <li><i class="fa-solid fa-location-dot" style="margin-right: 5px; color: red;"></i>  <strong>Registered Office : </strong>{{Registered_Office}}</li></a>
+      <li><i class="fa-solid fa-location-dot" style="margin-right: 5px; color: red;"></i>  <strong>Chamber No. : </strong>{{chamberNo}}</li>
+        <a style="color:aliceblue" href="https://www.google.com/maps/place/Deep+Plaza/@28.4509624,77.0313654,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19d45c3d8a39:0x5c41c0a2ce62ea6b!8m2!3d28.4509624!4d77.0313654!16s%2Fg%2F11lcfpqrbs?entry=ttu&g_ep=EgoyMDI1MDcyOC4wIKXMDSoASAFQAw%3D%3D"   target="_blank" 
+  rel="noopener noreferrer"><li><i class="fa-solid fa-location-dot" style="margin-right: 5px; color: red;"></i>  <strong>Gurugram Office : </strong>{{gurugramOffice}}</li></a>
+       <li class="mobile"> <a style="text-decoration: none; color: #ffffff;" [href]="'mailto:' + email + '?subject=Consultation Request&body=Hello, I would like to inquire about your services.'" >📧{{email}} </a></li>
+       <li class="pc"> 📧{{email}}</li>
+        <li>📞 <a  style="color: #fff; text-decoration: none;" [href]="'tel:' + adminPhone1">{{adminPhone1}}</a>  <span style="font-size: 18px;">|</span> <a style="color: #fff; text-decoration: none;" [href]="'tel:' + adminPhone2">{{adminPhone2}}</a> </li>
+      </ul>
+      <div class="social-icons">
+        <!-- <a href="#"><i class="fa-brands fa-facebook" style="color: rgb(127, 127, 235);"></i></a> -->
+        <a href="https://www.linkedin.com/in/ramesh-dalal-37380a254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"   target="_blank" 
+  rel="noopener noreferrer"><i class="fa-brands fa-linkedin" style="color: rgb(1, 1, 150);"></i></a>
+        <!-- <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(41, 41, 240);"></i></a> -->
+        <a href="https://www.instagram.com/advrameshdalal?utm_source=qr&igsh=YndubHE5eWQ3cGVj"   target="_blank" 
+  rel="noopener noreferrer"><i class="fa-brands fa-instagram" style="color: rgb(240, 19, 229);"></i></a>
+   <a href=""   target="_blank" 
+  rel="noopener noreferrer"><i class="fa-brands fa-facebook" style="color:rgb(45, 45, 244)"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="below">{{below}}</h1>
+</footer>
