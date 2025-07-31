@@ -1,5 +1,5 @@
 .main {
- min-width: 1200px;
+ /* min-width: 1200px; */
   height: 50vh;
   background: url('/assets/pexels-karolina-grabowska-7876038.jpg') center/cover no-repeat;
   display: flex;
