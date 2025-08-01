@@ -31,6 +31,8 @@ import { HfifthComponent } from "./home/hfifth/hfifth.component";
 import { TopComponent } from "./home/top/top.component";
 import { CsecondComponent } from "./contact/csecond/csecond.component";
 import { CallNowComponent } from "./call-now/call-now.component";
+import { BlogsComponent } from "./blogs/blogs.component";
+import { BfirstComponent } from "./blogs/bfirst/bfirst.component";
 // import { AdminComponent } from "./admin/admin.component";
 
 
@@ -49,7 +51,7 @@ import { CallNowComponent } from "./call-now/call-now.component";
 
 @NgModule({
     declarations:[AppComponent,
-       HomeComponent,HeaderComponent,HfirstComponent,HsecondComponent,HthirdComponent,HfourthComponent ,SidebarComponent ,ServiceComponent, SfirstComponent,SsecondComponent ,SthirdComponent,SfourthComponent ,ContactComponent,CfirstComponent,DetailsComponent,DfirstComponent,FooterComponent, HfifthComponent, TopComponent,CsecondComponent,CallNowComponent ],
+       HomeComponent,HeaderComponent,HfirstComponent,HsecondComponent,HthirdComponent,HfourthComponent ,SidebarComponent ,ServiceComponent, SfirstComponent,SsecondComponent ,SthirdComponent,SfourthComponent ,ContactComponent,CfirstComponent,DetailsComponent,DfirstComponent,FooterComponent, HfifthComponent, TopComponent,CsecondComponent,CallNowComponent, BlogsComponent, BfirstComponent ],
     bootstrap:[AppComponent],
     imports: [FormsModule,
          BrowserModule,
